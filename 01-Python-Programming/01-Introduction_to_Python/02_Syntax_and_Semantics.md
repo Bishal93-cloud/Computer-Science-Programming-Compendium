@@ -76,7 +76,7 @@ patient_two = 50
 average_age = patient_one + patient_two / 2
 
 # Output will be 65.0 instead of 45.0. This is because according to the standard mathematics rule,
-division operation occurs first and after that addition operation occurs and is assigned to 'average_age' variable.
+# division operation occurs first and after that addition operation occurs and is assigned to 'average_age' variable.
 
 # This is a semantic error—a beautiful map that leads to the wrong destination.
 print(average_age) 
