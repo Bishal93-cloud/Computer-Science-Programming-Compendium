@@ -1,6 +1,6 @@
 # 🐍 Python Programming: The Core Continent
 
-Welcome to the Python Programming module of the **Core Computer Science Compendium**. Step off the boat, look at the horizon, and prepare yourself—you have officially arrived at the staging ground for building the future. 
+Welcome to the Python Programming module of the **Computer-Science-Programming-Compendium**. Step off the boat, look at the horizon, and prepare yourself—you have officially arrived at the staging ground for building the future. 
 
 If C Programming is the compass that teaches us the fundamental physics of the machine, Python is the all-terrain vehicle that will carry us into the bleeding edge of computer science. This isn't just a folder of notes; it is a meticulously drawn map to a massive treasure: **the mastery of Artificial Intelligence, Deep Learning, and real-world system architecture**. 
 
