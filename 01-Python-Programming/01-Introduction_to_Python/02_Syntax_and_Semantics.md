@@ -75,7 +75,8 @@ patient_two = 50
 # BUT... because we forgot parentheses around the addition, Python divides patient_two by 2 first (Order of Operations).
 average_age = patient_one + patient_two / 2
 
-# Output will be 65.0 instead of 45.0. This is because according to the standard mathematics rule, division operation occurs first and after that addition operation occurs and is assigned to 'average_age' variable.
+# Output will be 65.0 instead of 45.0. This is because according to the standard mathematics rule,
+division operation occurs first and after that addition operation occurs and is assigned to 'average_age' variable.
 
 # This is a semantic error—a beautiful map that leads to the wrong destination.
 print(average_age) 
@@ -103,8 +104,6 @@ flowchart LR
 
 You will fix syntax errors in seconds because the computer tells you exactly where you messed up. You will spend hours fixing semantic errors because the computer thinks everything is fine.<br> 
 ***Master the syntax so you can focus your mental energy on the semantics.***
-
-<br>
 
 ---
 
@@ -166,13 +165,13 @@ Only *after* the entire file successfully passes Phase 1 does the Python Virtual
 ### 🚨 Why your above code sank before leaving the Dock?
 
 **An `IndentationError` is a fatal Syntax Error.**
-During Phase 1, Python was sweeping your file. It saw lines 3-5 and said, "Looks good." Then it hit line 10, saw the broken indentation, and threw its hands up. Because the file contained an illegal grammar structure, the compilation failed immediately. Python completely refused to generate the bytecode. Because Phase 1 failed, Phase 2 never even started. That is why your perfectly written code at the top was completely ignored.
+During Phase 1, Python was sweeping your file. It saw lines 2-4 and said, "Looks good." Then it hit line 9, saw the broken indentation, and threw its hands up. Because the file contained an illegal grammar structure, the compilation failed immediately. Python completely refused to generate the bytecode. Because Phase 1 failed, Phase 2 never even started. That is why your perfectly written code at the top was completely ignored.
 
 ---
 
 ### 🧠 The Semantic Exception (When the top would print)
 
-However, if line 10 had a Semantic Error or a Runtime Error—for example, if the indentation was perfect, but you tried to divide a number by zero (`print(10 / 0)`)—things would happen differently.
+However, if line 9 had a Semantic Error or a Runtime Error—for example, if the indentation was perfect, but you tried to divide a number by zero (`print(10 / 0)`)—things would happen differently.
 
 * The syntax check (Phase 1) would pass because dividing by zero is grammatically legal.
 
@@ -180,7 +179,7 @@ However, if line 10 had a Semantic Error or a Runtime Error—for example, if th
 
 * The top block would successfully print to your terminal.
 
-* The program would then crash when it reached the mathematical impossibility on line 10.
+* The program would then crash when it reached the mathematical impossibility on line 9.
 
 *But because whitespace is a strict law of the land in Python, a single misplaced space breaks the entire map before the journey even begins!*
 
@@ -226,8 +225,9 @@ often placed at the very top of a complex script or function.
 
 '''
 This is aother format of a multi-line comment.
-We use this for detailed explanations, 
-often placed at the very top of a complex script or function.
+Both the formats technically create a multi-line string literal
+but if it isn't assigned to a variable or used as a docstring,
+Python ignores it.
 '''
 
 ```
