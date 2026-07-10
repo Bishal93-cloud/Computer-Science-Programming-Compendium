@@ -1,4 +1,4 @@
-> ***“Syntax is learning how to draw the lines on the map with your pen, while semantics is making sure those lines actually lead to the treasure.”***
+> ***“Syntax is learning how to draw the lines with your pen, while semantics is making sure those lines actually lead to the treasure.”***
 
 ## 1. 🗺️ Syntax vs. Semantics: The Cartographer's Guide
 
