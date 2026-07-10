@@ -84,15 +84,15 @@ Beyond standard lectures, I actively utilize a triad of AI models as dynamic pai
 
 To get the absolute maximum value out of this compendium, do not treat it like a textbook. Treat it like a laboratory. Here is exactly how you should approach every single file in this folder:
 
-* **1. Read the Theory First:** Start by understanding the *why* (the Semantics). Look at the mental models and analogies before you even glance at the code blocks. 
+* **Read the Theory First:** Start by understanding the *why* (the Semantics). Look at the mental models and analogies before you even glance at the code blocks. 
 
-* **2. Type, Don't Copy:** When you reach a code snippet, do not hit `Ctrl+C`. Physically type it out in your own editor. Muscle memory is a massive part of programming.
+* **Type, Don't Copy:** When you reach a code snippet, do not hit `Ctrl+C`. Physically type it out in your own editor. Muscle memory is a massive part of programming.
 
-* **3. Break it on Purpose:** Once a piece of code works, intentionally change a variable, remove a parenthesis, or mess up the indentation just to see how Python reacts. Breaking things in a controlled environment is the fastest way to learn how they work.
+* **Break it on Purpose:** Once a piece of code works, intentionally change a variable, remove a parenthesis, or mess up the indentation just to see how Python reacts. Breaking things in a controlled environment is the fastest way to learn how they work.
 
-* **4. The Explorer's Challenges:** Many modules end with a debugging challenge designed to test your active recall. Do not click the collapsible solution box until you have genuinely tried to solve the puzzle yourself!
+* **The Explorer's Challenges:** Many modules end with a debugging challenge designed to test your active recall. Do not click the collapsible solution box until you have genuinely tried to solve the puzzle yourself!
 
-* **5. The 95/5 Formatting Rule:** Notice the layout. 95% of these notes are written in pure, clean Markdown for maximum readability. HTML is only injected (the remaining 5%) when absolutely necessary to build advanced UI elements. This keeps the raw code just as readable as the rendered output.
+* **The 95/5 Formatting Rule:** Notice the layout. 95% of these notes are written in pure, clean Markdown for maximum readability. HTML is only injected (the remaining 5%) when absolutely necessary to build advanced UI elements. This keeps the raw code just as readable as the rendered output.
 
 ---
 
